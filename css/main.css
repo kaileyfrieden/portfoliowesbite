@@ -1,0 +1,750 @@
+/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+header{
+  background-color: #327775;
+  color:white;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:0;
+  height:70px;
+}
+
+body{
+  margin:0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans, regular';
+}
+
+header h1{
+  margin:0;
+  padding-left:20px;
+  display:flex;
+  align-items: center;
+
+}
+
+nav{
+  display:flex;
+  flex-direction: row;
+}
+
+nav a{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin:0;
+  display:flex;
+  align-items: center;
+  text-decoration: none;
+  padding-top:10px;
+}
+
+nav a:hover{
+  text-decoration: underline;
+  text-decoration-color: #fff;
+}
+
+
+
+.intro{
+  padding-top: 100px;
+  padding-left:10%;
+  padding-right:10%;
+  margin-bottom:70px;
+  margin-top: 40px;
+  font-family: 'Open Sans, regular';
+}
+
+.intro h1{
+  font-size: 45px;
+  font-family: 'Open Sans, semibold';
+}
+
+
+button{
+  background-color: #327775;
+  color:white;
+  border-style: none;
+  border-radius: 20px;
+  margin-top:10px;
+  margin-bottom:20px;
+
+}
+
+.fullprocess iframe{
+  width:500px;
+}
+
+.fullprocess{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom:20px;
+  margin-top:20px;
+  text-align: center;
+}
+
+.fullprocess h2{
+  padding:10px;
+}
+
+.intro button:hover{
+  color:#327775;
+  background-color: #fff;
+  border-style: solid;
+  border-color: #327775;
+}
+
+.intro button{
+  border-style: solid;
+  border-color:#327775;
+}
+
+header a{
+  color:white;
+  text-decoration: none;
+  padding-top:10px;
+  
+}
+
+header a:hover{
+  text-decoration: underline;
+}
+
+
+
+hr{
+  color:black;
+  height:1px;
+  width:90%;
+  display:flex;
+  flex-direction: column;
+  align-self: center;
+  margin-bottom: 40px;
+
+
+}
+
+
+section{
+  scroll-behavior: smooth;
+}
+
+button p{
+  margin:0;
+  padding:10px;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+footer{
+  margin-top: auto;
+  background-color: black;
+  color:white;
+  text-align: center;
+  height:50px;
+  padding:10px;
+  
+}
+
+.letstalk h1{
+  font-size: 35px;
+  font-family: 'Open Sans, semibold';
+}
+
+.letstalk a{
+  font-size: 20px;
+  font-family: 'Open Sans, semibold';
+  color:white;
+  text-decoration: none;
+}
+
+.letstalk a:hover{
+  text-decoration: underline;
+}
+
+input[type=text], select, textarea {
+
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 10px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical ;
+  
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color:#327775;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  border-style: solid;
+  border-color: #327775;
+}
+
+
+input[type=submit]:hover {
+  background-color: white;
+  border-style: solid;
+  border-color: #327775;
+  color:#327775;
+}
+
+
+#left{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  padding:20px;
+}
+
+br{
+  width:1px;
+  color:black;
+  width:90%;
+}
+
+.work{
+  display:flex;
+  flex-direction: column;
+
+}
+
+#workleft{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+#workright{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+
+
+
+#img{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: .1px;
+  border-color: #ccc;
+}
+
+
+form{
+  display:flex;
+  flex-direction: column;
+}
+
+.form{
+  margin-left:10%;
+  margin-right:10%;
+  margin-bottom: 40px;
+
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top:40px;
+    
+
+  
+}
+
+.letstalk{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #327775;
+  text-align:center;
+  color:white;
+}
+
+.appdemo{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding:20px;
+}
+
+.chinatti{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding:20px;
+}
+
+#savory1left{
+  display:flex;
+  flex-direction: column;
+  padding: 20px;
+  
+}
+
+.savory1{
+  display:flex;
+  flex-direction: column;
+  margin:0;
+  align-items: center;
+}
+
+.savory1 img{
+  padding:10px;
+}
+
+.savorystate{
+  padding:20px;
+}
+
+.savoryusers{
+  display:flex;
+  flex-direction: column;
+  
+}
+
+.savoryusers h1{
+  display:flex;
+  align-self: center;
+}
+
+
+
+
+#savory1right{
+
+}
+
+.emailimg{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emailimg img{
+  padding:10px;
+  padding-bottom:20px;
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+ * Extends the .sr-only class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+
+  .intro{
+    padding-left:17%;
+    padding-right:17%;
+  }
+
+
+  .work{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #workleft{
+    display:flex;
+    flex-direction: row;
+  }
+
+  #workright{
+    display:flex;
+    flex-direction: row;
+    margin-bottom:0px;
+  }
+
+  #img{
+    margin:30px;
+  
+  }
+
+  .letstalk{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .form{
+    width:30%;
+  }
+
+  #left{
+    text-align: left;
+    padding-left: 10%;
+
+  }
+
+  #savory1left{
+    
+    
+    
+    
+    
+  }
+
+  .fullprocess iframe{
+    width:850px;
+  }
+
+  #savoryright{
+    display:flex;
+    align-items: center;
+
+   
+  }
+
+  .chinatti{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .savory1{
+    margin-left:5%;
+    flex-direction: row;
+    margin-right:5%;
+    margin-top:30px;
+    
+  }
+  
+  .savorystate{
+    margin-left:5%;
+    margin-right:5%;
+  }
+  
+  .process{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin:20px;
+  }
+
+ 
+
+  .process h2{
+text-align: left;
+  }
+
+  .demos{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin:20px;
+  }
+
+  .emailimg{
+    display:flex;
+    flex-direction: row;
+    padding:20px;
+    justify-content: center;
+  }
+
+  
+
+  .chinatti{
+    display:flex;
+    justify-content: center;
+  }
+
+  #chinattileft{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin:30px;
+  }
+
+  #chinattiright{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin:30px;
+  }
+  
+ 
+  }
+
+ 
+  
+  
+
+}
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /*
+   * Printing Tables:
+   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+   */
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
