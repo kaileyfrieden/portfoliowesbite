@@ -301,7 +301,7 @@ br{
 
 .work{
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
   margin:20px;
   align-items: center;
 }
