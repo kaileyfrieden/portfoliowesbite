@@ -572,6 +572,10 @@ form{
 
 }
 
+h3{
+  margin-top:0px;
+}
+
 .emailimg{
   display:flex;
   flex-direction: column;
@@ -799,6 +803,8 @@ form{
   
     
   }
+
+  
   
   .savorystate{
     margin-left:5%;
