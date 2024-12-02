@@ -1,0 +1,198 @@
+
+  
+  /* PowerFlex Section */
+  .savory1 {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .savory1 h1 {
+    font-size: 28px;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  .savory1 p {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  /* Process Section */
+  .process {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .process h2 {
+    font-size: 24px;
+    color: #222;
+    margin-bottom: 20px;
+  }
+  
+  /* Email Image Section */
+  .emailimg {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .emailimg img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  /* Contact Section */
+  .letstalk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+  }
+  
+  .letstalk #left {
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .letstalk h1 {
+    font-size: 24px;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  .letstalk a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .letstalk a:hover {
+    text-decoration: underline;
+  }
+  
+  .form {
+    max-width: 100%;
+  }
+  
+  .form input,
+  .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 14px;
+    color: #666;
+  }
+
+
+  /* Responsive Iframe Container */
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    margin: 20px 0;
+  }
+  
+  .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    header nav {
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    .emailimg {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .letstalk {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .form {
+      margin-top: 20px;
+    }
+  
+    .savory1 h1 {
+      font-size: 24px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      padding: 0 10px;
+    }
+  
+    header h1 {
+      font-size: 20px;
+    }
+  
+    .savory1 h1 {
+      font-size: 20px;
+    }
+  
+    .process h2 {
+      font-size: 20px;
+    }
+  
+    .emailimg img {
+      width: 100%;
+    }
+
+    .iframe-container {
+        padding-top: 75%; /* Adjust ratio for a taller aspect on smaller screens */
+      }
+  }
+
+  
+ 
+    
+  
+  
+  
+  
