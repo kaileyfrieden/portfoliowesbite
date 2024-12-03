@@ -8,85 +8,106 @@
   <link href='css/main.css' rel='stylesheet'>
 </head>
 
-<header>
-  <a href="index.html">
-  <h1>
-    KF
-  </h1>
-  </a>
 
-  <nav>
-    <a href="index.html"><button>HOME</button></a>
-    <a href="work.html"><button>WORK</button></a>
-    <a href="about.html"><button>ABOUT ME</button></a>
-    <a href="#contact-link"><button>CONTACT</button></a>
-  </nav>
-
-</header>
 
 <body>
+  <header>
+    <nav>
+      <div>
+        <a href="index.html">
+        <h1>KF</h1>
+         </a>
+      </div>
+  
+      <div>
+         <ul>
+           <li><a href="#work-link">WORK</a></li>
+            <li><a href="about.html">ABOUT ME</a></li>
+            <li><a href="#contact-link">CONTACT</a></li>
+          </ul>
+      </div>
+    </nav>
+  </header>
+  
 <main>
   <section class="savory1">
-    <div id="savory1left">
       <h1>POWERFLEX ATHLETICS EMAIL DESIGNS</h1>
       <p><strong>Project Purpose:</strong> Emails. While less glamourous than some, designs are a key component in marketing. Be able to design  beautiful emails that bring the customer back to the website to purchase something.</p>
       <section >
-        <p><strong>Brand Mission Statement:</strong> PowerFlex Athletics is dedicated to empowering individuals through high-performance athleisure clothing that seamlessly merges style and functionality. Our mission is to inspire confidence, motivation, and active lifestyles by crafting innovative, versatile apparel that enables individuals to move, perform, and excel in every aspect of their lives. We are committed to delivering superior quality, comfort, and cutting-edge designs that embody the fusion of fashion and athleticism, encouraging individuals to feel powerful, flexible, and unstoppable in every pursuit they undertake.</p>
+      <p><strong>Brand Mission Statement:</strong> PowerFlex Athletics is dedicated to empowering individuals through high-performance athleisure clothing that seamlessly merges style and functionality. Our mission is to inspire confidence, motivation, and active lifestyles by crafting innovative, versatile apparel that enables individuals to move, perform, and excel in every aspect of their lives. We are committed to delivering superior quality, comfort, and cutting-edge designs that embody the fusion of fashion and athleticism, encouraging individuals to feel powerful, flexible, and unstoppable in every pursuit they undertake.</p>
       </section>
+  </section>
+
+  <section class="wrapper">
+    <div class="emailpersonas">
+      <h2>User Personas</h2>
+      <div class="emailpersonaimg">
+      <img src="../work/img/emailpersona1.jpg" alt="">  
+      <img src="../work/img/emailpersona2.jpg" alt=""> 
+      <img src="../work/img/emailpersona3.jpg" alt="">  
+      </div>  
     </div>
+
+    <section class="emaildesigns">
+    <div class="emailwire">
+      <h2>Wireframes</h2>
+      <img src="../work/img/wireframesemailweb.jpg" alt="">
+    </div>
+
+    <div class="finalemail">
+      <h2>Final Designs</h2>
+      <img src="../work/img/finaluiemailweb.jpg" alt="">
+    </div>
+  </section>
+
 
   </section>
 
-  <section class="process">
+  <!-- <section class="my-process">
     <h2>PROCESS</h2>
-    <div class="iframe-container">
       <iframe 
         style="border: 1px solid rgba(0, 0, 0, 0.1);" 
         src="https://embed.figma.com/proto/puQOWIWvlzTUS6TuWa5W3s/Untitled?page-id=0%3A1&node-id=1-16&node-type=frame&viewport=433%2C312%2C0.18&scaling=scale-down-width&content-scaling=fixed&embed-host=share" 
         allowfullscreen>
       </iframe>
-    </div>
-  </section>
-
-  </div>
-    </section>
-
-    <section class="emailimg">
+  </section> -->
+  <!-- <section class="image-container">
+      <div class="row1">
       <img src="emailmockup1.png" alt="" style="width:500px;">
       <img src="emailmockup2.png" alt="" style="width:500px;">
-    </section>
+      </div>
+    </section> -->
   </main>
 
-    <section class="letstalk" id="contact-link">
-      <div id="left">
-        <div>
-        <h1>LET'S TALK.</h1>
-        <a href = "mailto: kailey.frieden@uconn.edu">KAILEY.FRIEDEN@UCONN.EDU</a>
-        </div>
+  <section class="letstalk" id="contact-link">
+    <div id="left">
+      <div>
+         <h1>LET'S TALK.</h1>
+          <a href = "mailto: kailey.frieden@uconn.edu">KAILEY.FRIEDEN@UCONN.EDU</a>
       </div>
+    </div>
+  
+    <div class="form">
+      <form action="mailto:kailey.frieden@uconn.edu" method="GET">
+        <label for="fname"></label>
+        <input type="text" id="name" name="fullname" placeholder="FULL NAME">
     
-      <div class="form">
-        <form action="mailto:kailey.frieden@uconn.edu" method="GET">
-          <label for="fname"></label>
-          <input type="text" id="name" name="fullname" placeholder="FULL NAME">
-      
-          <label for="lname"></label>
-          <input type="text" id="email" name="email" placeholder="EMAIL">
-      
-      
-          <label for="subject"></label>
-          <textarea id="message" name="message" placeholder="MESSAGE" style="height:100px"></textarea>
-      
-          <input type="submit" value="SUBMIT">
-      
-        </form>
-      </div>
+        <label for="lname"></label>
+        <input type="text" id="email" name="email" placeholder="EMAIL">
     
-    </section>
     
-    <footer>
-      <p>DESIGN & DEVELOPMENT BY KAILEY FRIEDEN</p>
-    </footer>
+        <label for="subject"></label>
+        <textarea id="message" name="message" placeholder="MESSAGE" style="height:100px"></textarea>
+    
+        <input type="submit" value="SUBMIT">
+    
+      </form>
+    </div>
+  </section>
+  
+  <footer>
+    <p>DESIGN & DEVELOPMENT BY KAILEY FRIEDEN</p>
+  </footer>
   
 </body>
 </html>

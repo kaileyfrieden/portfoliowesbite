@@ -90,32 +90,11 @@ textarea {
 
 
 
-   header {
-    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
-   
-    top: 10px; /* Adds space above the header */
-    left: 10px; /* Adds space to the left of the header */
-    right: 10px; /* Adds space to the right of the header */
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
-    height: 70px;
-     /* Makes the corners rounded */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Creates a "floating" shadow effect */
-    z-index: 1000; /* Ensures it stays above other elements */
-  }
+ 
 
-  header div{
-    display:flex;
-    flex-direction:row;
-  }
   
   main{
-    margin-left:30px;
-    margin-right:30px;
+    width:100%;
   }
 
 body{
@@ -123,47 +102,24 @@ body{
   font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
   background: #f5f5f5;
 
-  width: 100vw;
+  
   height: 100vh;
 }
 
-header h1{
-  margin:0;
-  padding-left:20px;
-  display:flex;
-  align-items: center;
-
+.emailpersonaimg img{
+  width:100%;
 }
 
-nav{
-  display:flex;
-  flex-direction: row;
-}
 
-nav a{
- 
-  margin:0;
-  display:flex;
-  align-items: center;
-  text-decoration: none;
-  padding-top:10px;
-}
 
-nav a:hover{
-  text-decoration: underline;
-  text-decoration-color: #fff;
-}
+
 
 .img-container {
   position: relative;
   display: inline-block;
 }
 
-.img-container img {
-  display: block; /* Removes bottom margin/gap */
-  height: 450px; /* As specified in your inline style */
-  width: auto;
-}
+
 
 #style{
   margin-top: 40px;
@@ -219,6 +175,13 @@ nav a:hover{
   background-color: linear-gradient(to right, red , yellow);
 }
 
+.wrapper{
+  display:flex;
+  margin: 10px;
+  flex-direction: column;
+  
+}
+
 body .btn,
 body .btn2 {
   text-decoration: none;
@@ -269,16 +232,7 @@ body .btn2 {
   }
 }
 
-button{
-  background-color: black;
-  color:white;
-  padding: 10px 20px;
-  border: none;
-  font-size: 16px;
-  border-radius: 5px;
-  cursor: pointer;
 
-}
 
 .fullprocess iframe{
   width:500px;
@@ -298,18 +252,7 @@ button{
 }
 
 
-header a{
-  color:white;
-  text-decoration: none;
-  padding-top:10px;
-  padding-bottom:10px;
-  align-self: center;
-  
-}
 
-header a:hover{
-  text-decoration: underline;
-}
 
 #workleft{
   display: flex;
@@ -338,12 +281,7 @@ section{
   scroll-behavior: smooth;
 }
 
-button p{
-  margin:0;
-  padding:10px;
-  padding-left:20px;
-  padding-right:20px;
-}
+
 
 footer{
   margin-top: auto;
@@ -423,6 +361,7 @@ br{
   margin:20px;
   align-items: center;
   padding-bottom: 30px;
+  width:100%;
 }
 
 #workleft{
@@ -468,6 +407,7 @@ br{
   border-style: solid;
   border-width: .1px;
   border-color: #ccc;
+  width:100%;
 }
 
 .work a:hover{
@@ -537,13 +477,14 @@ form{
 .savory1{
   display:flex;
   flex-direction: column;
-  align-items: center;
-  background-color: #fff;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  
+ margin-top: 20px;
+ margin-left:10px;
+ margin-right:10px;
+  
+ 
+  text-align: left;
+
 }
 
 .savory1 img{
@@ -613,6 +554,50 @@ h3{
   border: none;
 }
 
+.image-container{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+}
+
+.image-container img{
+  width:100%;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+header{
+  background-color: #000;
+  color:white;
+  display:flex;
+  flex-direction:column ;
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+  margin:0px;
+  padding:0px;
+}
+
+nav a{
+  color:white;
+  text-decoration: none;
+ 
+}
+
+.emaildesigns{
+  width:100%;
+}
+
+.emaildesigns img{
+  width:100%;
+}
+
+li{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 
 
@@ -712,7 +697,9 @@ h3{
   
   }
 
-
+header{
+  flex-direction: row;
+}
 
 
   #workleft{
@@ -729,6 +716,11 @@ h3{
     display:flex;
     flex-direction: row;
 
+  }
+
+  .wrapper{
+    margin-left:10%;
+    margin-right:10%;
   }
 
   #img{
@@ -752,21 +744,68 @@ h3{
 
   }
 
-  #savory1left{
-    
-    
-    
-    
-    
+  nav{
+    display:flex;
+    flex-direction: row;
+    align-items:center
+
   }
 
-  body {
-    padding: 0 10px;
+  .emailpersonaimg img{
+    width:33%;
   }
 
-  header h1 {
-    font-size: 20px;
+  .image-container{
+    justify-content: center;
+    align-items: center;
   }
+
+  .emaildesigns{
+    display:flex;
+    flex-direction: row;
+  }
+
+  .emaildesigns img{
+    width:100%;
+  }
+
+  .emailpersonas{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+  }
+
+  .emailpersonaimg{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+
+  }
+
+  .image-container img{
+   margin-left: 10px;
+    margin-right: 10px;
+    width:500px;
+  }
+ul{
+  display:flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.row1{
+  display:flex;
+  flex-direction: row;
+}
+.row2{
+  display:flex;
+  flex-direction: row;
+}
+.row3{
+  display:flex;
+  flex-direction: row;
+}
+  
 
   .savory1 h1 {
     font-size: 35px;
@@ -804,7 +843,10 @@ h3{
     
   }
 
-  
+  .savory1{
+    margin-left:10%;
+    margin-right:10%;
+  }
   
   .savorystate{
     margin-left:5%;
