@@ -474,6 +474,12 @@ form{
   font-size: 35px;
 }
 
+.appwire{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+}
+
 .savory1{
   display:flex;
   flex-direction: column;
@@ -560,6 +566,16 @@ h3{
   width:100%;
 }
 
+.app1{
+  display:flex;
+  flex-direction: column;
+}
+
+.app2{
+  display:flex;
+  flex-direction: column;
+}
+
 .image-container img{
   width:100%;
   padding-top:15px;
@@ -572,6 +588,15 @@ header{
   display:flex;
   flex-direction:column ;
   text-align: center;
+}
+
+.appstyle img{
+  width:100%;
+}
+
+.savorymobilewire{
+  display:flex;
+  flex-direction: column;
 }
 
 ul{
@@ -597,6 +622,21 @@ nav a{
 li{
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.savorywebwire{
+  display:flex;
+  flex-direction: column;
+}
+
+.savoryrow1{
+  display:flex;
+  flex-direction: column;
+}
+
+.savoryrow2{
+  display:flex;
+  flex-direction: column;
 }
 
 
@@ -718,9 +758,41 @@ header{
 
   }
 
+  .savorymobilewire{
+    display:flex;
+    flex-direction: row;
+  }
+
+  .savorymobilewire img{
+    width:33%;
+    height:100%;
+  }
+
+  .lastimg img{
+    width:15%;
+  }
+
   .wrapper{
     margin-left:10%;
     margin-right:10%;
+  }
+
+  .savoryrow1{
+    display:flex;
+    flex-direction: row;
+  }
+  
+  .savoryrow2{
+    display:flex;
+    flex-direction: row;
+  }
+
+  .savoryrow1 img{
+    width:50%;
+  }
+
+  .savoryrow2 img{
+    width:50%;
   }
 
   #img{
@@ -734,6 +806,11 @@ header{
     justify-content: space-between;
   }
 
+  .appwire{
+    display:flex;
+    width:100%;
+  }
+
   .form{
     width:30%;
   }
@@ -742,6 +819,27 @@ header{
     text-align: left;
     padding-left: 10%;
 
+  }
+
+  .app1{
+    display:flex;
+    flex-direction: row;
+    width:100%
+  }
+  
+  .app2{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+  }
+
+  .emailpersonaimg img{
+    height:100%;
+  }
+
+  .appwire img{
+    width:50%;
+    height:100%;
   }
 
   nav{
@@ -758,6 +856,15 @@ header{
   .image-container{
     justify-content: center;
     align-items: center;
+  }
+
+  .appstyle img{
+    width:50%;
+  }
+
+  .appstyle{
+    display:flex;
+    flex-direction: row;
   }
 
   .emaildesigns{
