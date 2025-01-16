@@ -648,6 +648,50 @@ li{
   flex-direction: column;
 }
 
+.whysubstance{
+  display:flex;
+  flex-direction: column;
+}
+
+.whysubstance img{
+  width:100%;
+}
+
+h3{
+  margin:0;
+}
+
+button{
+  width:200px;
+  height:50px;
+  background-color: #009A9A;
+  color:white;
+  border-style:none;
+}
+
+button a{
+  color:white;
+  text-decoration: none;
+}
+
+#thinpic img{
+  width:70%;
+  display: flex;
+}
+
+.whysubstance a{
+  text-decoration: underline;
+}
+
+#journey{
+  display:flex;
+  flex-direction: column;
+  
+}
+
+#journey img{
+  width:100%;
+}
 
 
 
@@ -744,6 +788,11 @@ li{
 
   .intro{
   
+  }
+
+  .whysubstance{
+    display:flex;
+    flex-direction: row;
   }
 
 header{
